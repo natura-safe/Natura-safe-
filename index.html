@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NATURA-SAFE — Pemantauan dan Mitigasi Kebakaran Hutan dan Lahan</title>
+  <meta name="description" content="NATURA-SAFE adalah aplikasi berbasis web untuk pemantauan dan mitigasi kebakaran hutan dan lahan melalui data, peta interaktif, dan panduan kesiapsiagaan.">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" data-go="home">
+      <span class="brand-mark">✦</span>
+      <span><b>NATURA-SAFE</b><small>Kenali Alam, Kenali Risiko, Jaga Masa Depan</small></span>
+    </a>
+    <nav class="nav" id="mainNav">
+      <button class="nav-link active" data-page="home">Beranda</button>
+      <button class="nav-link" data-page="peta">Peta</button>
+      <button class="nav-link" data-page="data">Data</button>
+      <button class="nav-link" data-page="risiko">Analisis</button>
+      <button class="nav-link" data-page="karhutla">Karhutla</button>
+      <button class="nav-link" data-page="satwa">Satwa</button>
+      <button class="nav-link" data-page="pembelajaran">Pembelajaran</button>
+      <button class="nav-link" data-page="simulasi">Simulasi</button>
+<button class="nav-link" data-page="mitigasi">Mitigasi</button>
+<button class="nav-link" data-page="emergency">Emergency</button>
+<button class="nav-link" data-page="checklist">Checklist</button>
+<button class="nav-link" data-page="kuis">Kuis</button>
+<button class="nav-link" data-page="tentang">Tentang</button>
+    </nav>
+    <div class="header-actions"><span>⌕</span><span>◉</span></div>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="page active" id="page-home">
+      <section class="home-landing">
+        <div class="home-botanical home-botanical-left" aria-hidden="true">🌿</div>
+        <div class="home-botanical home-botanical-bottom" aria-hidden="true">🍃</div>
+        <div class="home-hero-copy">
+          <span class="home-eyebrow">🌿 APLIKASI PEMANTAUAN & MITIGASI KARHUTLA</span>
+          <h1>NATURA-<span>SAFE</span></h1>
+          <h2>Pemantauan dan Mitigasi<br>Kebakaran Hutan dan Lahan</h2>
+          <p>NATURA-SAFE menghubungkan informasi hotspot, kondisi lingkungan, dan edukasi mitigasi untuk membantu pengguna memahami risiko kebakaran hutan dan lahan.</p>
+          <div class="home-hero-actions">
+            <button class="btn btn-pink" data-go="peta">🗺️ Jelajahi Peta</button>
+            <button class="btn btn-soft" data-go="pembelajaran">🌱 Mulai Belajar</button>
+          </div>
+          <div class="home-mini-note"><span>🌳</span> Kenali alam · pahami risiko · jaga masa depan</div>
+        </div>
+        <div class="home-hero-visual">
+          <img src="hero-mountain.png" alt="Ilustrasi hutan dan pegunungan Indonesia">
+          <div class="home-video-card">
+            <video class="natura-video" controls preload="metadata" poster="video-pengantar-poster.png" aria-label="Video pengantar NATURA-SAFE">
+              <source src="video-pengantar.mp4" type="video/mp4">
+              Browser kamu belum mendukung pemutaran video.
+            </video>
+            <div class="video-card-copy"><b>Video pengantar: hutan, hotspot, risiko, dan tindakan aman</b></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-story">
+        <div class="home-story-title">
+          <span>🌳</span>
+          <div><h2>Dari Hutan hingga Pemulihan</h2><p>Gambaran singkat perjalanan sebuah risiko karhutla.</p></div>
+        </div>
+        <div class="story-steps">
+          <button class="story-step" data-go="pembelajaran"><span>🌳</span><b>Hutan Normal</b><small>Ekosistem seimbang</small></button>
+          <i>→</i>
+          <button class="story-step" data-go="pembelajaran"><span>🌾</span><b>Kondisi Kering</b><small>Risiko meningkat</small></button>
+          <i>→</i>
+          <button class="story-step fire-step" data-go="karhutla"><span>🔥</span><b>Kebakaran</b><small>Karhutla terjadi</small></button>
+          <i>→</i>
+          <button class="story-step" data-go="satwa"><span>🌫️</span><b>Dampak</b><small>Lingkungan & satwa</small></button>
+          <i>→</i>
+          <button class="story-step" data-go="karhutla"><span>🌱</span><b>Pemulihan</b><small>Alam kembali pulih</small></button>
+        </div>
+      </section>
+
+      <section class="home-explore">
+        <div class="home-section-heading">
+          <span class="section-kicker">✨ EKSPLORASI NATURA-SAFE</span>
+          <h2>Semua ada di sini, pilih yang ingin kamu jelajahi.</h2>
+          <p>Beranda hanya memberi sedikit gambaran. Klik setiap kartu untuk masuk ke fitur lengkapnya.</p>
+        </div>
+        <div class="explore-grid">
+          <button class="explore-card explore-map" data-go="peta"><span>🗺️</span><div><b>Peta Indonesia</b><small>Hotspot & lokasi</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="data"><span>📊</span><div><b>Data</b><small>Data hotspot & lingkungan</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="risiko"><span>📈</span><div><b>Analisis Risiko</b><small>Dari data menjadi pemahaman</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="karhutla"><span>🔥</span><div><b>Karhutla</b><small>Kejadian & dampaknya</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="satwa"><span>🐾</span><div><b>Satwa</b><small>Ekosistem & satwa terdampak</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="pembelajaran"><span>📚</span><div><b>Pembelajaran</b><small>Kenali karhutla dari dasar</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="simulasi"><span>🎮</span><div><b>Simulasi</b><small>Latih pengambilan keputusan</small></div><strong>→</strong></button>
+          <button class="explore-card" data-go="kuis"><span>❓</span><div><b>Kuis</b><small>Uji pemahamanmu</small></div><strong>→</strong></button>
+        </div>
+      </section>
+
+      <section class="home-bottom-cta">
+        <div><span class="section-kicker">🌿 MULAI DARI SINI</span><h2>Kenali karhutla. Pahami risikonya.</h2><p>Jelajahi data, lihat peta, lalu coba simulasi untuk memahami keputusan yang aman.</p></div>
+        <div class="home-bottom-actions"><button class="btn btn-pink" data-go="peta">Buka Peta →</button><button class="btn btn-soft" data-go="simulasi">Coba Simulasi →</button></div>
+      </section>
+
+      <div class="home-stats"><div><b id="statHotspot">—</b><span>Titik Hotspot</span></div><div><b id="statProvince">—</b><span>Provinsi Terdata</span></div><div><b>DATA</b><span>Eksplorasi Interaktif</span></div></div>
+    </section>
+
+    <!-- DATA -->
+    <section class="page" id="page-data">
+      <div class="page-hero styled-hero"><span class="section-kicker">📊 DATA NATURA-SAFE</span><h1>Data yang Digunakan</h1><p>Data NATURA-SAFE dipisahkan berdasarkan fungsinya: hotspot sebagai indikasi, kondisi lingkungan sebagai konteks, dan kejadian kebakaran sebagai catatan peristiwa.</p></div>
+      <div class="four-grid data-summary-grid">
+        <article class="mini-card"><span>🟠</span><b>Hotspot</b><p><strong id="dataHotspotCount">—</strong> titik pada data yang tersedia.</p></article>
+        <article class="mini-card"><span>📍</span><b>Provinsi</b><p><strong id="dataProvinceCount">—</strong> provinsi terdata.</p></article>
+        <article class="mini-card"><span>🌦️</span><b>Lingkungan</b><p>Suhu, kelembapan, hujan, dan angin dari sumber resmi.</p></article>
+        <article class="mini-card"><span>🔥</span><b>Kejadian</b><p>Catatan kebakaran/karhutla yang memiliki sumber pendukung.</p></article>
+      </div>
+      <article class="card"><h2>Riwayat luas karhutla menurut provinsi</h2><div id="fireHistorySummary"><p>Memuat rekap riwayat karhutla…</p></div></article>
+      <article class="card"><h2>🟠 Hotspot bukan otomatis kebakaran</h2><p>Hotspot digunakan sebagai indikasi awal yang perlu diperhatikan. Kejadian kebakaran atau karhutla ditampilkan terpisah apabila terdapat data/laporan yang mendukung.</p></article>
+      <article class="card environment-card">
+        <div class="section-heading-row">
+          <div><span class="section-kicker">🌦️ DATA LINGKUNGAN RESMI</span><h2>Prakiraan Cuaca BMKG</h2><p>Ambil data suhu, kelembapan, kondisi cuaca, dan angin dari API Data Terbuka BMKG berdasarkan kode wilayah desa/kelurahan tingkat IV.</p></div>
+        </div>
+        <div class="environment-tools">
+          <label><span>Kode wilayah BMKG (ADM4)</span><input id="bmkgAdm4" type="text" inputmode="decimal" placeholder="Contoh: 31.71.03.1001"></label>
+          <button class="btn btn-primary" id="loadBmkg">Ambil Data BMKG</button>
+        </div>
+        <div id="bmkgStatus" class="info-box">ℹ️ Masukkan kode ADM4 untuk mengambil data prakiraan resmi BMKG.</div>
+                <div id="bmkgCurrent" class="environment-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-top: 15px; margin-bottom: 20px; width: 100%;">
+          <!-- Kartu Wilayah 1: Kalimantan Tengah -->
+          <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; background: #fff; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.02); box-sizing: border-box;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: #f44336;"></div>
+            <strong style="display: block; font-size: 14px; color: #333; margin-top: 5px; font-family: 'Quicksand', sans-serif;">Kalimantan Tengah</strong>
+            <span style="color: #777; font-size: 11px; display: block; margin-bottom: 10px;">📍 Palangkaraya</span>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 4px; font-size: 11px; color: #444;">
+              <div>Suhu: <strong>34°C</strong></div>
+              <div>Kelembapan: <strong>45%</strong></div>
+              <div>Angin: <strong>22 km/j</strong></div>
+              <div>Cuaca: <strong>Cerah</strong></div>
+            </div>
+            <div style="margin-top: 10px; padding-top: 6px; border-top: 1px solid #f0f0f0; font-size: 10px; font-weight: bold; color: #f44336; text-transform: uppercase; letter-spacing: 0.5px;">⚠️ STATUS: RISIKO TINGGI</div>
+          </div>
+
+          <!-- Kartu Wilayah 2: Riau -->
+          <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; background: #fff; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.02); box-sizing: border-box;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: #ff9800;"></div>
+            <strong style="display: block; font-size: 14px; color: #333; margin-top: 5px; font-family: 'Quicksand', sans-serif;">Riau</strong>
+            <span style="color: #777; font-size: 11px; display: block; margin-bottom: 10px;">📍 Pekanbaru</span>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 4px; font-size: 11px; color: #444;">
+              <div>Suhu: <strong>32°C</strong></div>
+              <div>Kelembapan: <strong>55%</strong></div>
+              <div>Angin: <strong>18 km/j</strong></div>
+              <div>Cuaca: <strong>Cerah Berawan</strong></div>
+            </div>
+            <div style="margin-top: 10px; padding-top: 6px; border-top: 1px solid #f0f0f0; font-size: 10px; font-weight: bold; color: #ff9800; text-transform: uppercase; letter-spacing: 0.5px;">⚠️ STATUS: WASPADA SIAGA</div>
+          </div>
+
+          <!-- Kartu Wilayah 3: Jawa Timur -->
+          <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; background: #fff; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.02); box-sizing: border-box;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: #ff9800;"></div>
+            <strong style="display: block; font-size: 14px; color: #333; margin-top: 5px; font-family: 'Quicksand', sans-serif;">Jawa Timur</strong>
+            <span style="color: #777; font-size: 11px; display: block; margin-bottom: 10px;">📍 Surabaya</span>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 4px; font-size: 11px; color: #444;">
+              <div>Suhu: <strong>33°C</strong></div>
+              <div>Kelembapan: <strong>52%</strong></div>
+              <div>Angin: <strong>14 km/j</strong></div>
+              <div>Cuaca: <strong>Cerah Berawan</strong></div>
+            </div>
+            <div style="margin-top: 10px; padding-top: 6px; border-top: 1px solid #f0f0f0; font-size: 10px; font-weight: bold; color: #ff9800; text-transform: uppercase; letter-spacing: 0.5px;">⚠️ STATUS: WASPADA SIAGA</div>
+          </div>
+        </div>
+
+        <div id="bmkgForecast" class="environment-forecast"></div>
+        <p class="map-note">Sumber: BMKG Data Terbuka. Data prakiraan tersedia 3 hari dan diperbarui 2 kali sehari. NATURA-SAFE tidak mengubah data BMKG.</p>
+      </article>
+      <article class="card"><h2>🔄 Pembaruan Data</h2><p id="dataUpdateNote">Hotspot diperbarui melalui workflow GitHub Actions setelah repository diunggah dan Actions aktif. Pembaruan tidak berlangsung secara langsung setiap detik; waktu pembaruan terakhir ditampilkan di bawah. Status: <span id="hotspotUpdateStatus">memeriksa metadata…</span></p></article>
+    </section>
+
+    <!-- KARHUTLA -->
+    <section class="page" id="page-karhutla">
+      <div class="page-hero styled-hero"><span class="section-kicker">🌿 DATA • NATURA-SAFE • KARHUTLA</span><h1>Kenali NATURA-SAFE & Karhutla</h1><p>Kenali tujuan NATURA-SAFE, pahami apa itu karhutla, faktor yang memengaruhi penyebaran api, dampaknya, serta cara bersikap aman saat terjadi kebakaran.</p></div>
+      <article class="card feature-wide"><div class="feature-icon">🌳</div><div><h2>Apa itu Karhutla?</h2><p>Karhutla adalah kebakaran yang terjadi pada kawasan hutan dan/atau lahan. Kebakaran dapat menyebabkan kerusakan vegetasi, habitat satwa, kualitas udara, serta ekosistem di sekitarnya.</p></div></article>
+      <h2 class="section-title">🔥 Apa yang Bisa Menyebabkan Karhutla?</h2>
+      <div class="two-grid"><article class="card"><div class="emoji">🌾</div><h3>Aktivitas Manusia</h3><p>Kebakaran dapat berkaitan dengan aktivitas manusia, misalnya pembukaan atau pengelolaan lahan dengan menggunakan api serta pembakaran terbuka.</p></article><article class="card"><div class="emoji">⚡</div><h3>Faktor Alam</h3><p>Dalam kondisi tertentu, sumber api juga dapat berasal dari faktor alam, misalnya sambaran petir.</p></article></div>
+      <article class="card green-card"><div class="emoji">🌬️</div><h2>Kenapa Api Bisa Menyebar?</h2><p>Penyebaran api dipengaruhi oleh kondisi lingkungan. Vegetasi yang kering dapat menjadi bahan bakar, sedangkan kondisi udara yang panas dan kering serta angin dapat membantu api menyebar lebih cepat.</p></article>
+      <div class="four-grid"><article class="mini-card"><span>🌡️</span><b>Suhu</b><p>Suhu tinggi dapat meningkatkan kondisi kering.</p></article><article class="mini-card"><span>💧</span><b>Kelembapan</b><p>Kelembapan rendah membuat vegetasi lebih mudah kering.</p></article><article class="mini-card"><span>🌿</span><b>Vegetasi</b><p>Bahan bakar kering dapat membantu api menyebar.</p></article><article class="mini-card"><span>💨</span><b>Angin</b><p>Angin dapat memengaruhi arah dan kecepatan penyebaran api.</p></article></div>
+      <h2 class="section-title">🐾 Apa Dampaknya?</h2><div class="three-grid"><article class="card"><div class="emoji">🌳</div><h3>Ekosistem</h3><p>Kebakaran dapat merusak vegetasi dan mengubah kondisi ekosistem.</p></article><article class="card"><div class="emoji">🐾</div><h3>Satwa</h3><p>Habitat satwa dapat terganggu atau kehilangan sumber makanan dan tempat berlindung.</p></article><article class="card"><div class="emoji">🌫️</div><h3>Udara</h3><p>Asap kebakaran dapat menurunkan kualitas udara dan mengganggu aktivitas masyarakat.</p></article></div>
+      <article class="card pink-card"><div class="emoji">🧯</div><h2>Bagaimana Cara Mencegahnya?</h2><ul><li>Hindari pembakaran terbuka yang tidak terkendali.</li><li>Jangan meninggalkan sumber api di area yang mudah terbakar.</li><li>Perhatikan kondisi lahan ketika vegetasi sedang kering.</li><li>Laporkan indikasi kebakaran kepada pihak yang berwenang.</li><li>Ikuti informasi dan peringatan resmi dari instansi terkait.</li></ul></article>
+    </section>
+
+    <!-- PETA -->
+    <section class="page" id="page-peta">
+      <div class="page-hero compact styled-hero"><span class="section-kicker">🗺️ PETA INDONESIA</span><h1>Hotspot & Kondisi Lingkungan</h1><p>Klik titik untuk melihat indikasi hotspot. Jika tersedia, kejadian kebakaran/karhutla akan ditampilkan sebagai data terpisah. Hotspot diperbarui dari file data yang tersedia. Pin kejadian karhutla hanya akan muncul jika ada catatan kejadian dengan koordinat dan sumber spesifik; rekap provinsi tidak diperlakukan sebagai lokasi kejadian.</p></div>
+      <div class="map-tools"><div><label for="provinceFilter">Provinsi</label><select id="provinceFilter"><option value="">Semua provinsi</option></select></div><div><label for="confidenceFilter">Confidence</label><select id="confidenceFilter"><option value="">Semua</option><option>High</option><option>Medium</option><option>Low</option></select></div><button class="btn btn-soft" id="resetMap">Reset filter</button></div>
+      <div id="map"></div><p class="map-note">Catatan: lapisan hotspot menunjukkan deteksi panas satelit. Tidak ada pin riwayat kejadian karhutla kecuali data kejadian berkoordinat dan bersumber spesifik telah ditambahkan. Hotspot: sumber SiPongi. Peta utama menggunakan citra satelit agar lokasi hotspot terlihat lebih realistis. Sumber hotspot: SiPongi Kementerian Kehutanan. Gunung tersedia melalui tombol katalog di pojok kanan bawah.</p><div id="hotspotDetail" class="detail-panel hidden"></div><div id="mountainProfile" class="detail-panel hidden"></div>
+    </section>
+
+    <!-- RISIKO -->
+    <section class="page" id="page-risiko">
+      <div class="page-hero styled-hero"><span class="section-kicker">📊 ANALISIS RISIKO</span><h1>Dari Data Menjadi Pemahaman</h1><p>Pahami bagaimana hotspot dan kondisi lingkungan dapat dibaca bersama untuk membangun gambaran risiko.</p></div>
+      <div class="risk-dashboard"><article class="card"><span class="big-icon">🔥</span><h3>Hotspot</h3><p>Titik panas yang terdeteksi satelit menjadi salah satu informasi awal.</p></article><article class="card"><span class="big-icon">🌡️</span><h3>Suhu</h3><p>Suhu lebih tinggi dapat membuat vegetasi lebih cepat mengering.</p></article><article class="card"><span class="big-icon">💧</span><h3>Kelembapan</h3><p>Kelembapan rendah dapat membuat bahan vegetasi lebih mudah terbakar.</p></article><article class="card"><span class="big-icon">💨</span><h3>Angin</h3><p>Angin dapat membantu penyebaran api ke area sekitar.</p></article></div>
+      <article class="card"><h2>🌿 Alur Analisis</h2><div class="flow"><span>🔥 Hotspot</span><i>→</i><span>🌡️ Suhu</span><i>→</i><span>💧 Kelembapan</span><i>→</i><span>🌧️ Curah Hujan</span><i>→</i><span>💨 Angin</span></div></article>
+      <div class="info-box">📡 <b>Status Data Lingkungan</b><br><br>Data hotspot dari SiPongi digunakan dalam peta. Data cuaca historis tidak dibuat-buat; integrasi data lingkungan resmi dapat ditambahkan pada tahap berikutnya.</div>
+    </section>
+
+    <!-- SATWA -->
+    <section class="page" id="page-satwa">
+      <div class="page-hero styled-hero"><span class="section-kicker">🐾 DATA SATWA TERDAMPAK</span><h1>Satwa dan Dampak Karhutla</h1><p>Bagian ini mencatat satwa yang benar-benar memiliki dokumentasi terdampak karhutla, bukan sekadar daftar satwa yang hidup di suatu wilayah.</p></div>
+      <div class="three-grid"><article class="card"><div class="emoji">📍</div><h3>Berbasis Kejadian</h3><p>Satwa dikaitkan dengan lokasi dan kejadian karhutla yang memiliki sumber.</p></article><article class="card"><div class="emoji">🐾</div><h3>Data Terdokumentasi</h3><p>Jumlah, kondisi, penyelamatan, atau kematian hanya ditampilkan jika tersedia.</p></article><article class="card"><div class="emoji">📚</div><h3>Sumber Jelas</h3><p>Informasi satwa dilengkapi sumber agar dapat ditelusuri kembali.</p></article></div>
+      <section class="wildlife-recap" aria-labelledby="wildlifeRecapTitle">
+        <div class="wildlife-recap-head">
+          <div>
+            <span class="section-kicker">🐾 REKAP SATWA</span>
+            <h2 id="wildlifeRecapTitle">Semua Hewan Terdampak</h2>
+            <p>Satwa hanya ditampilkan setelah dikaitkan dengan kejadian karhutla tertentu dan sumber laporan yang mendukung.</p>
+          </div>
+          <div class="wildlife-count" id="wildlifeCount">— satwa</div>
+        </div>
+        <div class="wildlife-tools">
+          <label class="wildlife-search"><span>⌕</span><input id="wildlifeSearch" type="search" placeholder="Cari nama hewan, ilmiah, atau daerah…" autocomplete="off"></label>
+          <select id="wildlifeRegionFilter" class="wildlife-filter"><option value="">Semua daerah</option></select>
+          <select id="wildlifeStatusFilter" class="wildlife-filter"><option value="">Semua status</option></select>
+        </div>
+        <div id="wildlifeGrid" class="wildlife-grid"></div>
+        <div id="wildlifeEmpty" class="info-box hidden">🐾 Belum ada satwa yang cocok dengan pencarianmu.</div>
+      </section>
+      <section id="wildlifeDetail" class="wildlife-detail hidden"></section>
+    </section>
+
+    <!-- PEMBELAJARAN -->
+    <section class="page" id="page-pembelajaran">
+      <div class="page-hero styled-hero"><span class="section-kicker">📚 PEMBELAJARAN</span><h1>Kenali Kebakaran dari Data</h1><p>Materi singkat untuk memahami kebakaran, hotspot, karhutla, faktor lingkungan, dampak, dan pencegahan.</p></div>
+      <div class="two-grid"><article class="card"><div class="emoji">🟠</div><h2>Apa itu Hotspot?</h2><p>Hotspot adalah indikasi panas yang terdeteksi oleh sistem pengamatan satelit. Hotspot tidak otomatis berarti telah terjadi kebakaran.</p></article><article class="card"><div class="emoji">🔥</div><h2>Apa itu Kebakaran?</h2><p>Kebakaran adalah peristiwa terbakarnya material secara tidak terkendali. Jenis dan lokasi kejadian dapat berbeda-beda.</p></article><article class="card"><div class="emoji">🌳</div><h2>Apa itu Karhutla?</h2><p>Karhutla adalah kebakaran yang terjadi pada kawasan hutan dan/atau lahan.</p></article><article class="card"><div class="emoji">🌦️</div><h2>Kenapa Data Lingkungan Penting?</h2><p>Suhu, kelembapan, hujan, angin, dan kondisi vegetasi membantu memberikan konteks terhadap kondisi suatu wilayah.</p></article></div>
+    </section>
+
+    <!-- SIMULASI -->
+    <section class="page" id="page-simulasi">
+      <div class="page-hero styled-hero"><span class="section-kicker">🎮 SIMULASI PENGHENTIAN & PENYELAMATAN</span><h1>Kalau Karhutla Terjadi, Apa yang Kamu Lakukan?</h1><p>Simulasi ini melatih pengambilan keputusan yang aman: mengenali bahaya, melapor, menjauh, membantu proses penyelamatan, dan mengikuti arahan petugas.</p></div>
+      <article class="card simulation-video-card"><h2>Video simulasi pengambilan keputusan</h2><p>Video ini contoh edukasi singkat. Ikuti prosedur resmi dan jangan mendekati lokasi kebakaran.</p><video class="natura-video" controls preload="metadata" poster="video-simulasi-poster.png" aria-label="Video simulasi keputusan aman saat karhutla"><source src="video-simulasi.mp4" type="video/mp4">Browser kamu belum mendukung pemutaran video.</video></article>
+      <div id="simulationBox" class="simulation-box"></div>
+      <div class="quiz-link-card"><div><span>❓</span><h2>Sudah selesai simulasi?</h2><p>Lanjutkan dengan mini quiz untuk menguji pemahamanmu.</p></div><button class="btn btn-pink" data-go="kuis">Mulai Kuis →</button></div>
+    </section>
+    <!-- MITIGASI -->
+
+<section class="page" id="page-mitigasi">
+  <div class="page-hero styled-hero">
+    <span class="section-kicker">🌿 MITIGASI KARHUTLA</span>
+    <h1>Pusat Mitigasi Kebakaran Hutan dan Lahan</h1>
+    <p>Langkah pencegahan, pemantauan, penanganan, dan pemulihan lingkungan berdasarkan kondisi risiko karhutla.</p>
+  </div>
+
+  <div class="two-grid">
+    <article class="card">
+      <div class="emoji">🌳</div>
+      <h2>1. Pencegahan</h2>
+      <ul>
+        <li>Tidak membuka lahan dengan cara membakar.</li>
+        <li>Tidak membuang puntung rokok sembarangan.</li>
+        <li>Menjaga lahan dan vegetasi dari sumber api.</li>
+        <li>Mengikuti informasi cuaca dan peringatan risiko.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="emoji">📡</div>
+      <h2>2. Pemantauan</h2>
+      <ul>
+        <li>Memantau titik panas (hotspot).</li>
+        <li>Memeriksa suhu, kelembapan, curah hujan, dan angin.</li>
+        <li>Memperhatikan perubahan tingkat risiko lingkungan.</li>
+        <li>Memverifikasi informasi melalui sumber resmi.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="emoji">⚠️</div>
+      <h2>3. Penanganan Awal</h2>
+      <ul>
+        <li>Memastikan informasi kejadian kepada petugas.</li>
+        <li>Melaporkan lokasi dan waktu indikasi kebakaran.</li>
+        <li>Memberikan peringatan kepada masyarakat melalui jalur resmi.</li>
+        <li>Mengutamakan keselamatan dan mengikuti arahan petugas.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="emoji">🚒</div>
+      <h2>4. Penanggulangan</h2>
+      <ul>
+        <li>Penanganan dilakukan oleh petugas berwenang.</li>
+        <li>Koordinasi dengan BPBD dan pemadam kebakaran.</li>
+        <li>Pengamanan wilayah terdampak.</li>
+        <li>Evakuasi masyarakat jika diperlukan.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="emoji">🦧</div>
+      <h2>5. Perlindungan Satwa</h2>
+      <ul>
+        <li>Mengidentifikasi habitat satwa terdampak.</li>
+        <li>Mendukung penyelamatan satwa oleh petugas berwenang.</li>
+        <li>Memantau kondisi habitat setelah kebakaran.</li>
+        <li>Menghindari penanganan satwa liar secara mandiri.</li>
+      </ul>
+    </article>
+
+    <article class="card">
+      <div class="emoji">🌱</div>
+      <h2>6. Pemulihan Lingkungan</h2>
+      <ul>
+        <li>Memantau kondisi lahan bekas kebakaran.</li>
+        <li>Melakukan rehabilitasi vegetasi sesuai kondisi lahan.</li>
+        <li>Mencegah kebakaran berulang.</li>
+        <li>Mengevaluasi dampak terhadap ekosistem.</li>
+      </ul>
+    </article>
+  </div>
+
+  <article class="card">
+    <div class="emoji">📊</div>
+    <h2>Alur Mitigasi NATURA-SAFE</h2>
+    <p>Data lingkungan → Analisis risiko → Peringatan → Verifikasi kejadian → Rekomendasi tindakan → Pemulihan lingkungan.</p>
+  </article>
+</section>
+
+
+    
+<!-- EMERGENCY -->
+<section class="page" id="page-emergency">
+  <div class="page-hero styled-hero">
+    <span class="section-kicker">🚨 EMERGENCY CENTER</span>
+    <h1>Pusat Informasi Darurat</h1>
+    <p>Panduan informasi dan tindakan keselamatan ketika terjadi kebakaran hutan dan lahan.</p>
+  </div>
+
+  <article class="card">
+    <div class="emoji">📞</div>
+    <h2>Nomor Penting Darurat</h2>
+    <p>Simpan informasi berikut untuk membantu menghubungi layanan darurat saat diperlukan.</p>
+
+    <div class="two-grid">
+      <div class="info-box">
+        <h3>🚒 Pemadam Kebakaran</h3>
+        <h1>113</h1>
+        <p>Nomor layanan pemadam kebakaran.</p>
+      </div>
+
+      <div class="info-box">
+        <h3>🆘 Darurat Umum</h3>
+        <h1>112</h1>
+        <p>Layanan darurat umum di wilayah yang telah menyediakan layanan 112.</p>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <strong>BPBD dan Manggala Agni</strong>
+      <p>Hubungi kantor atau petugas setempat untuk informasi kontak resmi sesuai lokasi kejadian.</p>
+    </div>
+
+    <p class="small-note">Nomor ditampilkan sebagai informasi, bukan tombol panggilan. Pastikan layanan tersedia di wilayah kejadian.</p>
+  </article>
+
+  <article class="card">
+    <div class="emoji">⚠️</div>
+    <h2>Langkah Saat Menemukan Kebakaran</h2>
+    <ol>
+      <li>Segera menjauh dari area kebakaran.</li>
+      <li>Hindari arah pergerakan asap dan cari tempat yang lebih aman.</li>
+      <li>Beritahu orang sekitar jika aman dilakukan.</li>
+      <li>Laporkan kejadian kepada petugas berwenang.</li>
+      <li>Ikuti arahan petugas dan jangan kembali ke area sebelum dinyatakan aman.</li>
+    </ol>
+    <div class="info-box">
+      Jangan mendekati titik api atau mencoba memadamkan kebakaran besar sendiri.
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="emoji">📍</div>
+    <h2>Informasi yang Perlu Dilaporkan</h2>
+    <ul>
+      <li>Lokasi atau titik koordinat kejadian.</li>
+      <li>Waktu pertama kali kebakaran terlihat.</li>
+      <li>Kondisi dan perkiraan luas area terdampak jika diketahui.</li>
+      <li>Arah penyebaran asap atau api jika terlihat dari tempat aman.</li>
+      <li>Keberadaan warga atau satwa yang membutuhkan bantuan.</li>
+    </ul>
+  </article>
+
+  <article class="card">
+    <div class="emoji">🛡️</div>
+    <h2>Informasi Keselamatan</h2>
+    <ul>
+      <li>Utamakan keselamatan manusia.</li>
+      <li>Hindari paparan asap kebakaran.</li>
+      <li>Jangan memasuki kawasan terbakar.</li>
+      <li>Gunakan jalur evakuasi yang diarahkan petugas.</li>
+    </ul>
+    <div class="info-box">
+      Informasi ini merupakan panduan edukasi dan tidak menggantikan instruksi petugas penanganan darurat.
+    </div>
+  </article>
+</section>
+
+
+    <!-- CHECKLIST -->
+    <section class="page" id="page-checklist">
+      <div class="page-hero styled-hero">
+        <span class="section-kicker">✅ CHECKLIST KESIAPSIAGAAN</span>
+        <h1>Sudah Siap Menghadapi Risiko?</h1>
+        <p>Centang hal-hal yang sudah kamu persiapkan untuk meningkatkan kesiapsiagaan terhadap karhutla.</p>
+      </div>
+      <article class="card">
+        <h2>Daftar Kesiapsiagaan</h2>
+        <label><input type="checkbox"> Mengetahui informasi risiko kebakaran di wilayah sekitar.</label>
+        <label><input type="checkbox"> Menyimpan kontak petugas darurat setempat.</label>
+        <label><input type="checkbox"> Mengetahui jalur menuju tempat aman.</label>
+        <label><input type="checkbox"> Menyiapkan dokumen dan barang penting.</label>
+        <label><input type="checkbox"> Mengetahui cara melaporkan kejadian kebakaran.</label>
+        <label><input type="checkbox"> Memahami bahaya asap kebakaran.</label>
+        <div class="info-box">Checklist ini merupakan panduan edukasi kesiapsiagaan, bukan pengganti arahan petugas.</div>
+      </article>
+    </section>
+    <!-- TENTANG / GUNUNG -->
+    <section class="page" id="page-tentang">
+      <div class="page-hero styled-hero"><span class="section-kicker">ℹ️ TENTANG NATURA-<span class="brand-safe">SAFE</span></span><h1>Data, Alam, dan Pembelajaran</h1><p>NATURA-SAFE dirancang sebagai media belajar interaktif untuk menghubungkan data lingkungan dengan pemahaman risiko karhutla.</p></div>
+      <article class="card"><h2>🌿 Tentang Sistem</h2><p>NATURA-SAFE menghubungkan hotspot, kondisi lingkungan, kejadian kebakaran, karhutla, dampak lingkungan, dan pembelajaran interaktif.</p></article>
+      
+      <div class="info-box">⚠️ NATURA-SAFE adalah media edukasi dan analisis. Untuk kondisi darurat, tetap ikuti informasi dan arahan resmi instansi berwenang.</div>
+    </section>
+
+    <!-- KUIS -->
+    <section class="page" id="page-kuis">
+      <div class="page-hero styled-hero"><span class="section-kicker">❓ MINI QUIZ</span><h1>Seberapa Paham Kamu?</h1><p>Jawab pertanyaan singkat tentang karhutla, data lingkungan, dan pengambilan keputusan.</p></div>
+      <div id="quizBox" class="quiz-box"></div>
+    </section>
+  </main>
+
+  <button id="mountainCatalogButton" class="mountain-catalog-fab" type="button" aria-label="Tampilkan ikon gunung pada peta" title="Tampilkan ikon gunung" aria-pressed="false">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 26 12 9l5 9 4-7 8 15H3Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="m9 15 3 2 2-1M19 15l2 2 2-1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+  </button>
+  <button id="mountainCatalogOpenList" class="mountain-catalog-list-fab" type="button" aria-label="Buka daftar gunung Indonesia" title="Daftar gunung">Daftar</button>
+  <div id="mountainCatalogModal" class="mountain-catalog-modal hidden" role="dialog" aria-modal="true" aria-labelledby="mountainCatalogTitle">
+    <div class="mountain-catalog-backdrop" data-close-mountain-catalog></div>
+    <section class="mountain-catalog-panel">
+      <div class="mountain-catalog-head"><div><p class="section-kicker">KATALOG PENDUKUNG</p><h2 id="mountainCatalogTitle">Gunung di Indonesia</h2><p>Jelajahi daftar gunung. Profil rinci ditampilkan jika datanya tersedia.</p></div><button type="button" class="mountain-catalog-close" data-close-mountain-catalog aria-label="Tutup katalog">×</button></div>
+      <input id="mountainCatalogSearch" class="mountain-catalog-search" type="search" placeholder="Cari nama gunung atau wilayah..." aria-label="Cari gunung">
+      <div class="mountain-catalog-filters"><label for="mountainIslandFilter">Pulau</label><select id="mountainIslandFilter"><option value="">Semua wilayah</option><option>Sumatra</option><option>Jawa</option><option>Bali</option><option>Nusa Tenggara</option><option>Kalimantan</option><option>Sulawesi</option><option>Maluku</option><option>Papua</option></select></div>
+      <p id="mountainCatalogCount" class="map-note"></p><div id="mountainCatalogList" class="mountain-catalog-list"></div>
+      <p class="mountain-catalog-note">Daftar ini merupakan katalog awal yang terus perlu dilengkapi dan diverifikasi. Status aktivitas gunung dan pembukaan jalur bukan data langsung kecuali dinyatakan demikian.</p>
+    </section>
+  </div>
+  <footer><span>🌿</span> <b>NATURA-SAFE</b><small>Alam Terjaga, Masa Depan Kita Juga</small><span class="footer-social">◎　◉　◌</span></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="hotspots-data.js"></script>
+  <script src="mountains-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

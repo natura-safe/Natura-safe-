@@ -1,0 +1,3102 @@
+{
+  "metadata": {
+    "nama_file_asal": "luas-karhutla-provinsi.xlsx",
+    "sheet_asal": "data",
+    "periode": "2018-2026",
+    "tingkat_data": "provinsi",
+    "catatan": "Data ini menunjukkan luas indikasi kebakaran per provinsi dan tahun pada file sumber. Tidak memuat koordinat titik kejadian atau detail kabupaten.",
+    "status_rule": "Provinsi diberi status 🔥 Pernah terjadi kebakaran jika terdapat luas > 0 pada minimal satu tahun.",
+    "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+  },
+  "riwayat_tahunan": [
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2018,
+      "luas_ha": 1284.7,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2019,
+      "luas_ha": 730.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2020,
+      "luas_ha": 1078.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2021,
+      "luas_ha": 1267.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2022,
+      "luas_ha": 3716.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2023,
+      "luas_ha": 1936.86,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2024,
+      "luas_ha": 7257.35,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2025,
+      "luas_ha": 8924.98,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 11,
+      "provinsi": "Aceh",
+      "tahun": 2026,
+      "luas_ha": 4070.48,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2018,
+      "luas_ha": 1013.76,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2019,
+      "luas_ha": 373.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2020,
+      "luas_ha": 29.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2021,
+      "luas_ha": 3.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2023,
+      "luas_ha": 2011.27,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2024,
+      "luas_ha": 316.36,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2025,
+      "luas_ha": 93.08,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 51,
+      "provinsi": "Bali",
+      "tahun": 2026,
+      "luas_ha": 108.28,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2018,
+      "luas_ha": 2055.67,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2019,
+      "luas_ha": 4778.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2020,
+      "luas_ha": 576.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2021,
+      "luas_ha": 385.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2022,
+      "luas_ha": 328.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2023,
+      "luas_ha": 4752.98,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2024,
+      "luas_ha": 2915.46,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2025,
+      "luas_ha": 1670.83,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 19,
+      "provinsi": "Bangka Belitung",
+      "tahun": 2026,
+      "luas_ha": 335.63,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 36,
+      "provinsi": "Banten",
+      "tahun": 2019,
+      "luas_ha": 9.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 36,
+      "provinsi": "Banten",
+      "tahun": 2020,
+      "luas_ha": 2.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 36,
+      "provinsi": "Banten",
+      "tahun": 2023,
+      "luas_ha": 1.01,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 36,
+      "provinsi": "Banten",
+      "tahun": 2024,
+      "luas_ha": 362.83,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 36,
+      "provinsi": "Banten",
+      "tahun": 2025,
+      "luas_ha": 4.44,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 36,
+      "provinsi": "Banten",
+      "tahun": 2026,
+      "luas_ha": 8.28,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2018,
+      "luas_ha": 8.82,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2019,
+      "luas_ha": 11.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2020,
+      "luas_ha": 221.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2021,
+      "luas_ha": 93.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2022,
+      "luas_ha": 1620.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2023,
+      "luas_ha": 75.94,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2024,
+      "luas_ha": 355.05,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2025,
+      "luas_ha": 2543.98,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 17,
+      "provinsi": "Bengkulu",
+      "tahun": 2026,
+      "luas_ha": 125.15,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 31,
+      "provinsi": "DKI Jakarta",
+      "tahun": 2024,
+      "luas_ha": 0.51,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2018,
+      "luas_ha": 158.65,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2019,
+      "luas_ha": 1909.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2020,
+      "luas_ha": 80.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2021,
+      "luas_ha": 163.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2022,
+      "luas_ha": 101.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2023,
+      "luas_ha": 666.33,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2024,
+      "luas_ha": 767.03,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2025,
+      "luas_ha": 89.86,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 75,
+      "provinsi": "Gorontalo",
+      "tahun": 2026,
+      "luas_ha": 455.95,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2018,
+      "luas_ha": 1577.75,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2019,
+      "luas_ha": 56593.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2020,
+      "luas_ha": 1002.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2021,
+      "luas_ha": 540.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2022,
+      "luas_ha": 918.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2023,
+      "luas_ha": 6539.68,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2024,
+      "luas_ha": 5636.69,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2025,
+      "luas_ha": 3566.22,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 15,
+      "provinsi": "Jambi",
+      "tahun": 2026,
+      "luas_ha": 379.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2018,
+      "luas_ha": 4104.51,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2019,
+      "luas_ha": 9552.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2020,
+      "luas_ha": 2344.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2021,
+      "luas_ha": 1299.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2022,
+      "luas_ha": 2005.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2023,
+      "luas_ha": 11524.8,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2024,
+      "luas_ha": 4548.58,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2025,
+      "luas_ha": 1610.64,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 32,
+      "provinsi": "Jawa Barat",
+      "tahun": 2026,
+      "luas_ha": 1892.97,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2018,
+      "luas_ha": 331.67,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2019,
+      "luas_ha": 4782.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2020,
+      "luas_ha": 7516.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2021,
+      "luas_ha": 599.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2022,
+      "luas_ha": 107.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2023,
+      "luas_ha": 9965.59,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2024,
+      "luas_ha": 3726.78,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2025,
+      "luas_ha": 1372.29,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 33,
+      "provinsi": "Jawa Tengah",
+      "tahun": 2026,
+      "luas_ha": 947.97,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2018,
+      "luas_ha": 8886.39,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2019,
+      "luas_ha": 23655.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2020,
+      "luas_ha": 19148.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2021,
+      "luas_ha": 15458.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2022,
+      "luas_ha": 2380.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2023,
+      "luas_ha": 49498.32,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2024,
+      "luas_ha": 20957.17,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2025,
+      "luas_ha": 10667.23,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 35,
+      "provinsi": "Jawa Timur",
+      "tahun": 2026,
+      "luas_ha": 10835.28,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2018,
+      "luas_ha": 68422.03,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2019,
+      "luas_ha": 151919.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2020,
+      "luas_ha": 7646.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2021,
+      "luas_ha": 20590.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2022,
+      "luas_ha": 21836.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2023,
+      "luas_ha": 111848.43,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2024,
+      "luas_ha": 24154.63,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2025,
+      "luas_ha": 26702.81,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 61,
+      "provinsi": "Kalimantan Barat",
+      "tahun": 2026,
+      "luas_ha": 38310.86,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2018,
+      "luas_ha": 98637.99,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2019,
+      "luas_ha": 137848.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2020,
+      "luas_ha": 4017.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2021,
+      "luas_ha": 8625.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2022,
+      "luas_ha": 429.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2023,
+      "luas_ha": 190394.58,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2024,
+      "luas_ha": 4993.88,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2025,
+      "luas_ha": 11896.38,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 63,
+      "provinsi": "Kalimantan Selatan",
+      "tahun": 2026,
+      "luas_ha": 8019.63,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2018,
+      "luas_ha": 47432.57,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2019,
+      "luas_ha": 317749.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2020,
+      "luas_ha": 7681.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2021,
+      "luas_ha": 3653.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2022,
+      "luas_ha": 1554.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2023,
+      "luas_ha": 165896.44,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2024,
+      "luas_ha": 11459.89,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2025,
+      "luas_ha": 4803.97,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 62,
+      "provinsi": "Kalimantan Tengah",
+      "tahun": 2026,
+      "luas_ha": 7634.46,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2018,
+      "luas_ha": 27893.2,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2019,
+      "luas_ha": 68524.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2020,
+      "luas_ha": 5221.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2021,
+      "luas_ha": 3029.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2022,
+      "luas_ha": 373.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2023,
+      "luas_ha": 39494.41,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2024,
+      "luas_ha": 22570.5,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2025,
+      "luas_ha": 9573.14,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 64,
+      "provinsi": "Kalimantan Timur",
+      "tahun": 2026,
+      "luas_ha": 2715.76,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2018,
+      "luas_ha": 627.71,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2019,
+      "luas_ha": 8559.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2020,
+      "luas_ha": 1721.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2021,
+      "luas_ha": 1678.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2022,
+      "luas_ha": 370.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2023,
+      "luas_ha": 796.36,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2024,
+      "luas_ha": 2429.21,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2025,
+      "luas_ha": 2740.97,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 65,
+      "provinsi": "Kalimantan Utara",
+      "tahun": 2026,
+      "luas_ha": 400.62,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2018,
+      "luas_ha": 320.96,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2019,
+      "luas_ha": 6134.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2020,
+      "luas_ha": 8805.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2021,
+      "luas_ha": 1588.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2022,
+      "luas_ha": 23.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2023,
+      "luas_ha": 724.26,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2024,
+      "luas_ha": 1498.66,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2025,
+      "luas_ha": 356.53,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 21,
+      "provinsi": "Kepulauan Riau",
+      "tahun": 2026,
+      "luas_ha": 5760.9,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2018,
+      "luas_ha": 15156.22,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2019,
+      "luas_ha": 35546.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2020,
+      "luas_ha": 1358.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2021,
+      "luas_ha": 5411.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2022,
+      "luas_ha": 7989.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2023,
+      "luas_ha": 6506.67,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2024,
+      "luas_ha": 13242.01,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2025,
+      "luas_ha": 3796.05,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 18,
+      "provinsi": "Lampung",
+      "tahun": 2026,
+      "luas_ha": 4890.26,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2018,
+      "luas_ha": 14906.44,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2019,
+      "luas_ha": 27211.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2020,
+      "luas_ha": 20270.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2021,
+      "luas_ha": 11807.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2022,
+      "luas_ha": 14954.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2023,
+      "luas_ha": 45999.39,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2024,
+      "luas_ha": 13404.83,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2025,
+      "luas_ha": 21935.97,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 81,
+      "provinsi": "Maluku",
+      "tahun": 2026,
+      "luas_ha": 14677.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2018,
+      "luas_ha": 69.54,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2019,
+      "luas_ha": 2781.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2020,
+      "luas_ha": 59.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2021,
+      "luas_ha": 108.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2022,
+      "luas_ha": 171.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2023,
+      "luas_ha": 542.18,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2024,
+      "luas_ha": 102.57,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2025,
+      "luas_ha": 27.53,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 82,
+      "provinsi": "Maluku Utara",
+      "tahun": 2026,
+      "luas_ha": 589.64,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2018,
+      "luas_ha": 14461.38,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2019,
+      "luas_ha": 60234.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2020,
+      "luas_ha": 29157.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2021,
+      "luas_ha": 101173.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2022,
+      "luas_ha": 30567.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2023,
+      "luas_ha": 66716.43,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2024,
+      "luas_ha": 46189.73,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2025,
+      "luas_ha": 27834.73,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 52,
+      "provinsi": "Nusa Tenggara Barat",
+      "tahun": 2026,
+      "luas_ha": 17406.46,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2018,
+      "luas_ha": 57428.79,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2019,
+      "luas_ha": 136920.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2020,
+      "luas_ha": 114719.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2021,
+      "luas_ha": 137343.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2022,
+      "luas_ha": 70637.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2023,
+      "luas_ha": 102536.89,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2024,
+      "luas_ha": 113089.51,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2025,
+      "luas_ha": 118409.1,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 53,
+      "provinsi": "Nusa Tenggara Timur",
+      "tahun": 2026,
+      "luas_ha": 19565.16,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2018,
+      "luas_ha": 88626.84,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2019,
+      "luas_ha": 108110.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2020,
+      "luas_ha": 28277.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2021,
+      "luas_ha": 15979.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2022,
+      "luas_ha": 8336.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2023,
+      "luas_ha": 604.01,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2024,
+      "luas_ha": 544.19,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2025,
+      "luas_ha": 199.74,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 91,
+      "provinsi": "Papua",
+      "tahun": 2026,
+      "luas_ha": 544.61,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2018,
+      "luas_ha": 509.5,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2019,
+      "luas_ha": 1533.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2020,
+      "luas_ha": 5716.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2021,
+      "luas_ha": 77.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2022,
+      "luas_ha": 1738.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2023,
+      "luas_ha": 259.03,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2024,
+      "luas_ha": 198.85,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2025,
+      "luas_ha": 1228.72,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 92,
+      "provinsi": "Papua Barat",
+      "tahun": 2026,
+      "luas_ha": 2496.39,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 96,
+      "provinsi": "Papua Barat Daya",
+      "tahun": 2023,
+      "luas_ha": 504.24,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 96,
+      "provinsi": "Papua Barat Daya",
+      "tahun": 2024,
+      "luas_ha": 28.42,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 96,
+      "provinsi": "Papua Barat Daya",
+      "tahun": 2025,
+      "luas_ha": 189.12,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 96,
+      "provinsi": "Papua Barat Daya",
+      "tahun": 2026,
+      "luas_ha": 716.7,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 95,
+      "provinsi": "Papua Pegunungan",
+      "tahun": 2023,
+      "luas_ha": 787.11,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 95,
+      "provinsi": "Papua Pegunungan",
+      "tahun": 2024,
+      "luas_ha": 461.56,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 95,
+      "provinsi": "Papua Pegunungan",
+      "tahun": 2025,
+      "luas_ha": 672.06,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 95,
+      "provinsi": "Papua Pegunungan",
+      "tahun": 2026,
+      "luas_ha": 1681.43,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 93,
+      "provinsi": "Papua Selatan",
+      "tahun": 2023,
+      "luas_ha": 150813.34,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 93,
+      "provinsi": "Papua Selatan",
+      "tahun": 2024,
+      "luas_ha": 27182.19,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 93,
+      "provinsi": "Papua Selatan",
+      "tahun": 2025,
+      "luas_ha": 8107.91,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 93,
+      "provinsi": "Papua Selatan",
+      "tahun": 2026,
+      "luas_ha": 25838.53,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 94,
+      "provinsi": "Papua Tengah",
+      "tahun": 2023,
+      "luas_ha": 2593.91,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 94,
+      "provinsi": "Papua Tengah",
+      "tahun": 2024,
+      "luas_ha": 104.02,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 94,
+      "provinsi": "Papua Tengah",
+      "tahun": 2025,
+      "luas_ha": 242.18,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 94,
+      "provinsi": "Papua Tengah",
+      "tahun": 2026,
+      "luas_ha": 2519.88,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2018,
+      "luas_ha": 37236.27,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2019,
+      "luas_ha": 90550.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2020,
+      "luas_ha": 15442.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2021,
+      "luas_ha": 8970.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2022,
+      "luas_ha": 4915.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2023,
+      "luas_ha": 7267.03,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2024,
+      "luas_ha": 11027.96,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2025,
+      "luas_ha": 21843.73,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 14,
+      "provinsi": "Riau",
+      "tahun": 2026,
+      "luas_ha": 15738.92,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2018,
+      "luas_ha": 978.38,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2019,
+      "luas_ha": 3029.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2020,
+      "luas_ha": 569.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2021,
+      "luas_ha": 886.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2022,
+      "luas_ha": 488.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2023,
+      "luas_ha": 2132.31,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2024,
+      "luas_ha": 994.74,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2025,
+      "luas_ha": 1079.43,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 76,
+      "provinsi": "Sulawesi Barat",
+      "tahun": 2026,
+      "luas_ha": 865.6,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2018,
+      "luas_ha": 1741.27,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2019,
+      "luas_ha": 15697.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2020,
+      "luas_ha": 1902.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2021,
+      "luas_ha": 916.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2022,
+      "luas_ha": 997.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2023,
+      "luas_ha": 6489.26,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2024,
+      "luas_ha": 3522.91,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2025,
+      "luas_ha": 3539.24,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 73,
+      "provinsi": "Sulawesi Selatan",
+      "tahun": 2026,
+      "luas_ha": 1489.5,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2018,
+      "luas_ha": 4147.28,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2019,
+      "luas_ha": 11551.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2020,
+      "luas_ha": 2555.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2021,
+      "luas_ha": 3133.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2022,
+      "luas_ha": 3704.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2023,
+      "luas_ha": 10844.28,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2024,
+      "luas_ha": 4920.7,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2025,
+      "luas_ha": 4578.34,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 72,
+      "provinsi": "Sulawesi Tengah",
+      "tahun": 2026,
+      "luas_ha": 3138.1,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2018,
+      "luas_ha": 8594.67,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2019,
+      "luas_ha": 16929.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2020,
+      "luas_ha": 3206.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2021,
+      "luas_ha": 2124.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2022,
+      "luas_ha": 3098.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2023,
+      "luas_ha": 18736.47,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2024,
+      "luas_ha": 1629.74,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2025,
+      "luas_ha": 7051.24,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 74,
+      "provinsi": "Sulawesi Tenggara",
+      "tahun": 2026,
+      "luas_ha": 2735.48,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2018,
+      "luas_ha": 326.39,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2019,
+      "luas_ha": 4574.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2020,
+      "luas_ha": 177.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2021,
+      "luas_ha": 579.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2022,
+      "luas_ha": 469.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2023,
+      "luas_ha": 2531.44,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2024,
+      "luas_ha": 651.68,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2025,
+      "luas_ha": 6.51,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 71,
+      "provinsi": "Sulawesi Utara",
+      "tahun": 2026,
+      "luas_ha": 368.78,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2018,
+      "luas_ha": 2421.9,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2019,
+      "luas_ha": 2133.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2020,
+      "luas_ha": 1573.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2021,
+      "luas_ha": 2068.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2022,
+      "luas_ha": 9832.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2023,
+      "luas_ha": 4885.13,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2024,
+      "luas_ha": 3052.2,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2025,
+      "luas_ha": 8145.45,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 13,
+      "provinsi": "Sumatera Barat",
+      "tahun": 2026,
+      "luas_ha": 1491.07,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2018,
+      "luas_ha": 16226.6,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2019,
+      "luas_ha": 336798.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2020,
+      "luas_ha": 950.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2021,
+      "luas_ha": 5245.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2022,
+      "luas_ha": 3723.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2023,
+      "luas_ha": 132082.86,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2024,
+      "luas_ha": 15422.48,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2025,
+      "luas_ha": 5939.79,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 16,
+      "provinsi": "Sumatera Selatan",
+      "tahun": 2026,
+      "luas_ha": 1926.23,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2018,
+      "luas_ha": 3678.79,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2019,
+      "luas_ha": 2514.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2020,
+      "luas_ha": 3744.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2021,
+      "luas_ha": 4078.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2022,
+      "luas_ha": 7516.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2023,
+      "luas_ha": 2113.75,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2024,
+      "luas_ha": 7032.27,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2025,
+      "luas_ha": 38175.23,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 12,
+      "provinsi": "Sumatera Utara",
+      "tahun": 2026,
+      "luas_ha": 1330.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 34,
+      "provinsi": "Yogyakarta",
+      "tahun": 2019,
+      "luas_ha": 23.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 34,
+      "provinsi": "Yogyakarta",
+      "tahun": 2020,
+      "luas_ha": 181.0,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 34,
+      "provinsi": "Yogyakarta",
+      "tahun": 2023,
+      "luas_ha": 119.91,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "kode_wilayah": 34,
+      "provinsi": "Yogyakarta",
+      "tahun": 2024,
+      "luas_ha": 51.91,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    }
+  ],
+  "riwayat_provinsi": [
+    {
+      "provinsi": "Aceh",
+      "kode_wilayah": 11,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 30265.37,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Bali",
+      "kode_wilayah": 51,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 3947.75,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Bangka Belitung",
+      "kode_wilayah": 19,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 17797.57,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Banten",
+      "kode_wilayah": 36,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2019,
+        2020,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 387.56,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Bengkulu",
+      "kode_wilayah": 17,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 5053.94,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "DKI Jakarta",
+      "kode_wilayah": 31,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2024
+      ],
+      "total_luas_ha_2018_2026": 0.51,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Gorontalo",
+      "kode_wilayah": 75,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 4390.82,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Jambi",
+      "kode_wilayah": 15,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 76752.34,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Jawa Barat",
+      "kode_wilayah": 32,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 38881.5,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Jawa Tengah",
+      "kode_wilayah": 33,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 29348.3,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Jawa Timur",
+      "kode_wilayah": 35,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 161485.39,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Kalimantan Barat",
+      "kode_wilayah": 61,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 471429.76,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Kalimantan Selatan",
+      "kode_wilayah": 63,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 464861.46,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Kalimantan Tengah",
+      "kode_wilayah": 62,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 567864.33,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Kalimantan Timur",
+      "kode_wilayah": 64,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 179394.01,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Kalimantan Utara",
+      "kode_wilayah": 65,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 19322.87,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Kepulauan Riau",
+      "kode_wilayah": 21,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 25211.31,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Lampung",
+      "kode_wilayah": 18,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 93895.21,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Maluku",
+      "kode_wilayah": 81,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 185165.63,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Maluku Utara",
+      "kode_wilayah": 82,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 4450.46,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Nusa Tenggara Barat",
+      "kode_wilayah": 52,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 393739.73,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Nusa Tenggara Timur",
+      "kode_wilayah": 53,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 870648.45,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Papua",
+      "kode_wilayah": 91,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 251221.39,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Papua Barat",
+      "kode_wilayah": 92,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 13756.49,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Papua Barat Daya",
+      "kode_wilayah": 96,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 1438.48,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Papua Pegunungan",
+      "kode_wilayah": 95,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 3602.16,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Papua Selatan",
+      "kode_wilayah": 93,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 211941.97,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Papua Tengah",
+      "kode_wilayah": 94,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 5459.99,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Riau",
+      "kode_wilayah": 14,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 212990.91,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sulawesi Barat",
+      "kode_wilayah": 76,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 11022.46,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sulawesi Selatan",
+      "kode_wilayah": 73,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 36294.18,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sulawesi Tengah",
+      "kode_wilayah": 72,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 48571.7,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sulawesi Tenggara",
+      "kode_wilayah": 74,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 64104.6,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sulawesi Utara",
+      "kode_wilayah": 71,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 9683.8,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sumatera Barat",
+      "kode_wilayah": 13,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 35601.75,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sumatera Selatan",
+      "kode_wilayah": 16,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 518313.96,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Sumatera Utara",
+      "kode_wilayah": 12,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "total_luas_ha_2018_2026": 70182.04,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    },
+    {
+      "provinsi": "Yogyakarta",
+      "kode_wilayah": 34,
+      "status": "🔥 Pernah terjadi kebakaran",
+      "tahun_tercatat": [
+        2019,
+        2020,
+        2023,
+        2024
+      ],
+      "total_luas_ha_2018_2026": 375.82,
+      "sumber": "SiPongi+ – Indikasi Luas Kebakaran"
+    }
+  ]
+}

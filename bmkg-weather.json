@@ -1,0 +1,52 @@
+{
+  "status": "success",
+  "last_updated": "2026-11-10 09:11:54 WIB",
+  "total_wilayah": 5,
+  "data": [
+    {
+      "provinsi": "Riau",
+      "kota": "Pekanbaru",
+      "suhu": "32",
+      "kelembapan": "55",
+      "kecepatan_angin": "18",
+      "kondisi": "Cerah Berawan",
+      "waktu_prakiraan": "2026-11-10 09:00"
+    },
+    {
+      "provinsi": "Jambi",
+      "kota": "Jambi",
+      "suhu": "33",
+      "kelembapan": "50",
+      "kecepatan_angin": "15",
+      "kondisi": "Cerah",
+      "waktu_prakiraan": "2026-11-10 09:00"
+    },
+    {
+      "provinsi": "Kalimantan Barat",
+      "kota": "Pontianak",
+      "suhu": "31",
+      "kelembapan": "60",
+      "kecepatan_angin": "12",
+      "kondisi": "Berawan",
+      "waktu_prakiraan": "2026-11-10 09:00"
+    },
+    {
+      "provinsi": "Kalimantan Tengah",
+      "kota": "Palangkaraya",
+      "suhu": "34",
+      "kelembapan": "45",
+      "kecepatan_angin": "22",
+      "kondisi": "Cerah",
+      "waktu_prakiraan": "2026-11-10 09:00"
+    },
+    {
+      "provinsi": "Jawa Timur",
+      "kota": "Surabaya",
+      "suhu": "33",
+      "kelembapan": "52",
+      "kecepatan_angin": "14",
+      "kondisi": "Cerah Berawan",
+      "waktu_prakiraan": "2026-11-10 09:00"
+    }
+  ]
+}

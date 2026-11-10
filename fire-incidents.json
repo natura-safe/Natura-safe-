@@ -1,0 +1,7 @@
+{
+  "metadata": {
+    "status": "belum ada kejadian berkoordinat yang lolos verifikasi",
+    "catatan": "Jangan isi koordinat dari hotspot secara otomatis. Setiap kejadian harus memiliki tanggal, lokasi, koordinat yang bersumber, jenis sumber, URL laporan spesifik, dan status verifikasi."
+  },
+  "incidents": []
+}
